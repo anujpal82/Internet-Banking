@@ -10,15 +10,11 @@ app.use(cors());
 app.use(express.json());
 app.use("/home", router);
 
-app.listen(5000, (err) => {
+app.listen(process.env.PORT || 5000, (err) => {
   if (err) {
     console.error("Error occured during starting server");
   }
-  console.log("Server started on port 5000");
-});
-
-app.get("", (req, res) => {
-  res.json("hello");
+  console.log("Server started ");
 });
 
 mongoose.connect("mongodb://localhost/Project", {
