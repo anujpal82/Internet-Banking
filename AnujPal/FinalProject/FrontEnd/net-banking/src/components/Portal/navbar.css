@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: #064420 !important;
+  font-size: medium !important;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.nav-link:hover {
+  opacity: 1.5;
+}
+
+.nav-link::before {
+  -webkit-transition: 1s;
+  transition: 1s;
+  height: 5px !important;
+  content: "";
+  position: absolute;
+  background-color: #031D44 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0d6efd !important;
+  border-color: #0d6efd;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #bd2130 !important;
+  border-color: #b21f2d;
+}
+
+.btn-primary:hover {
+  color: #031D44 !important;
+  background: transparent !important;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  color: #031D44 !important;
+  background: transparent !important;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  color: #031D44 !important;
+  background: transparent !important;
+  font-weight: bold;
+}
+
+#dropdownMenuButton {
+  background: transparent;
+  outline: none;
+  color: #064420;
+  border: none;
+  border-style: none;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+#dropdownMenuButton:hover {
+  opacity: 1;
+}
+
+.editProfile {
+  cursor: pointer;
+}
+
+a {
+  color: #064420;
+}
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,36 @@
+section{
+    background-image: url('../../components//Images//about4.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 700px;
+    opacity: 1;
+    
+}
+#about{
+  margin-top: 500px;
+    color: blanchedalmond;
+    transition: 1s ease;
+    min-height: 400px;
+    min-width: 400px;
+    max-width: 600px;
+    background-color:#dfeeea;
+    margin: auto ;
+}
+#about:hover{
+    -webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+}
+.container{
+
+display: inline;
+}
+
+section div div div h3{
+margin-top: 100px;
+}
+#paragraph{
+    color: #064420 !important;
+    font-size: medium;
+}
